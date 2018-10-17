@@ -1,0 +1,95 @@
+body{
+  background-image: url(../image/fondddd.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hamburger {
+  background-image: url('../image/morpionhamburger.png');
+  background-size: cover;
+}
+.hotdog {
+    background-image: url('../image/morpionhotdog.png');
+    background-size: cover;
+}
+.morpion{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.coucou{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.row{
+  /* flex : capacité a occuper l'epace restant du parent  */
+flex: 1;
+display: flex;
+}
+
+.cell{
+  flex: 1;
+  border: 1px solid white;
+  background-color: #d0dcdf;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carré{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+h1{
+  font-size: 100px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  background: #d8bcbd;
+  height: 100px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background: #d8bcbd;
+  height: 70px;
+  width: 200px;
+  display: none;
+  color: white;
+  font-weight: bold;
+}
+
+button.visible{
+  display: block;
+}
+
+/* alert{
+  background: grey;
+  font-size: 50px;
+  color: pink;
+} */
